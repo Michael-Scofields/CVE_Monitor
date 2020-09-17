@@ -16,7 +16,7 @@
 
 
 
-4、nohup python CVE_Monitor.py > output.log 2>&1 &
+4、nohup python -u CVE_Monitor.py > output.log 2>&1 &
 
 
 
