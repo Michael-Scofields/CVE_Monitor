@@ -1,6 +1,8 @@
 # CVE Monitor From Github|NVD Send By Server酱
 
-<!--python3-->
+[python3]
+
+
 
 1、pip install requirements.txt
 

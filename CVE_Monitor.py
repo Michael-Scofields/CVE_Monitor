@@ -149,7 +149,7 @@ if __name__ == '__main__':
                 print(f'[+] Description：{context}')
                 print(f'[+] POC&EXP：{svn_url}')
                 print(f'[+] Description：{poc_des}')
-                # sendMsg(t, iid, cve_name, score, vector, detail, affected, context, svn_url, poc_des)
+                sendMsg(t, iid, cve_name, score, vector, detail, affected, context, svn_url, poc_des)
             total = data['total_count']
         else:
             print(f'[-] Not Found!')
