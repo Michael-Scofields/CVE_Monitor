@@ -7,7 +7,7 @@ typora-copy-images-to: ./img
 
 [python3]
 
-![example](/example.png)
+![example](./img/example.png)
 
 1、pip install requirements.txt
 
