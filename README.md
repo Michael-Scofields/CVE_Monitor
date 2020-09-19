@@ -2,7 +2,7 @@
 
 [python3]
 
-
+![example](/Users/MichaelScofield/Downloads/example.png)
 
 1、pip install requirements.txt
 
@@ -21,3 +21,4 @@
 
 
 5、Running continuously, WeChat receives notifications
+
