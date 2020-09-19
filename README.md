@@ -2,7 +2,7 @@
 
 [python3]
 
-![example](CVE_Monitor/img/example.png)
+![example](img/example.png)
 
 1、pip install requirements.txt
 
