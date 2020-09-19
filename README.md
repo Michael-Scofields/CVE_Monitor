@@ -1,8 +1,13 @@
+---
+typora-root-url: ./img
+typora-copy-images-to: ./img
+---
+
 # CVE Monitor From Github|NVD Send By Server酱
 
 [python3]
 
-![example](/Users/MichaelScofield/Downloads/example.png)
+![example](/example.png)
 
 1、pip install requirements.txt
 
