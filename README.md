@@ -1,8 +1,3 @@
----
-typora-root-url: ./img
-typora-copy-images-to: ./img
----
-
 # CVE Monitor From Github|NVD Send By Server酱
 
 [python3]
