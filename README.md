@@ -1,4 +1,4 @@
-# CVE Monitor From Github|NVD Send By Server酱
+# CVE Monitor From Github|NVD|CVE Send By Server酱
 
 [python3]
 
