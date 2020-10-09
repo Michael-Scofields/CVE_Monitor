@@ -110,7 +110,7 @@ def sendMsg(t, iid, cve_name, score, vector, detail, affected, context, svn_url,
     [Description] =》 {poc_des}\n\n
     '''
     data = {
-        "text": "[Michael] | CVE Monitor",
+        "text": "[Michael] -|- CVE Monitor",
         "desp": details
     }
     r = requests.post(send_url, data=data)
@@ -120,7 +120,7 @@ def sendMsg(t, iid, cve_name, score, vector, detail, affected, context, svn_url,
 
 if __name__ == '__main__':
     SCKEY = ""
-    total = 640  # 初始化
+    total = 695  # 初始化
     title = '''
   ______     _______     __  __             _ _
  / ___\ \   / / ____|   |  \/  | ___  _ __ (_) |_ ___  _ __
@@ -160,4 +160,4 @@ if __name__ == '__main__':
         else:
             print(f'[-] Not Found!')
         print("\n[*] Wait ...")
-        time.sleep(600)
+        time.sleep(1200)
