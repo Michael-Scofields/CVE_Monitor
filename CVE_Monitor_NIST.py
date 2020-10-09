@@ -98,16 +98,16 @@ def sendMsg(t, iid, cve_name, score, vector, detail, affected, context, svn_url,
     t = t
     send_url = f"https://sc.ftqq.com/{SCKEY}.send"
     details = f'''
-    [Time]=》 {t}\n\n
-    [ID]=》 {iid}\n\n
-    [CVE Num]=》 {cve_name}\n\n
-    [Base Score]=》 {score}\n\n
-    [Vector]=》 {vector}\n\n
-    [Detail]=》 {detail}\n\n
-    [Affected]=》 {affected}\n\n
-    [Description]=》 {context}\n\n
-    [POC&EXP]=》 {svn_url}\n\n
-    [Description]=》 {poc_des}\n\n
+    [Time] =》 {t}\n\n
+    [ID] =》 {iid}\n\n
+    [CVE Num] =》 {cve_name}\n\n
+    [Base Score] =》 {score}\n\n
+    [Vector] =》 {vector}\n\n
+    [Detail] =》 {detail}\n\n
+    [Affected] =》 {affected}\n\n
+    [Description] =》 {context}\n\n
+    [POC&EXP] =》 {svn_url}\n\n
+    [Description] =》 {poc_des}\n\n
     '''
     data = {
         "text": "[Michael] | CVE Monitor",
